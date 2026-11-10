@@ -1,0 +1,19 @@
+# Локальные данные MySQL
+database-mysql/
+
+# Зависимости и сборка (дублирует .gitignore внутри backend и frontend)
+backend/vendor/
+backend/.env
+frontend/node_modules/
+frontend/dist/
+
+# Системные файлы
+Thumbs.db
+desktop.ini
+*.log
+backend/.phpunit.result.cache
+backend/database/database.sqlite
+
+# Пояснительная записка и презентация сдаются отдельно
+Новая папка/
+~$*
